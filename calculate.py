@@ -12,7 +12,7 @@ def divide(a, b):
 
 
 if __name__ == '__main__':
-    print('\n첫번째 숫자를 입력하세요.')
+    print('\n첫번째 숫자를 입력하세요 제발.')
     input1 = int(input('입력: '))
 
     print('\n원하는 사칙연산 기호 중 하나를 선택하세요. (+, -, *, /)')
@@ -33,4 +33,4 @@ if __name__ == '__main__':
     if act == '/':
         result = divide(input1, input2)
 
-    print(f'사칙연산 결과는 {result} 입니다.')
+    print(f'\n사칙연산 결과는 {result} 입니다.')
